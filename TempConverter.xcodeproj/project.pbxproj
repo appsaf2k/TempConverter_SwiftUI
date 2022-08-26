@@ -11,6 +11,7 @@
 		AF39E3CA28B75719007BEE1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF39E3C928B75719007BEE1E /* ContentView.swift */; };
 		AF39E3CC28B7571B007BEE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF39E3CB28B7571B007BEE1E /* Assets.xcassets */; };
 		AF39E3CF28B7571B007BEE1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF39E3CE28B7571B007BEE1E /* Preview Assets.xcassets */; };
+		AFFCFD5B28B8951F004A93C1 /* TipeTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFCFD5A28B8951F004A93C1 /* TipeTemp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AF39E3C928B75719007BEE1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF39E3CB28B7571B007BEE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF39E3CE28B7571B007BEE1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFFCFD5A28B8951F004A93C1 /* TipeTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipeTemp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AF39E3C728B75719007BEE1E /* TempConverterApp.swift */,
 				AF39E3C928B75719007BEE1E /* ContentView.swift */,
+				AFFCFD5E28B8976C004A93C1 /* Model */,
 				AF39E3CB28B7571B007BEE1E /* Assets.xcassets */,
 				AF39E3CD28B7571B007BEE1E /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				AF39E3CE28B7571B007BEE1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFFCFD5E28B8976C004A93C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFFCFD5A28B8951F004A93C1 /* TipeTemp.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF39E3CA28B75719007BEE1E /* ContentView.swift in Sources */,
+				AFFCFD5B28B8951F004A93C1 /* TipeTemp.swift in Sources */,
 				AF39E3C828B75719007BEE1E /* TempConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
